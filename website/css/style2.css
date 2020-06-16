@@ -1,0 +1,88 @@
+lement.style {
+}
+.on-boarding-create-task, .top-nav .navbar-right .btn.create-btn {
+    background-color: #fff!important;
+    border-radius: 100px;
+    border: none;
+    margin-right: 10px;
+}
+.top-nav .navbar-right .btn {
+    border: 1px solid #fff;
+    border-radius: 25px;
+    line-height: 16px;
+    background: 0 0!important;
+}
+.top-nav .create-task-btn {
+    padding: 0 0 0 15px!important;
+    min-width: 130px;
+}
+.sub-header input, .top-nav .btn, .top-nav input {
+    letter-spacing: .5px;
+}
+.create-btn {
+    height: 30px;
+    line-height: 17px!important;
+    border-radius: 100px;
+    color: #282828!important;
+    background-color: #fff!important;
+    padding: 10px 20px!important;
+}
+.create-btn, .top-nav.new-top-menu .more-btn>a {
+    display: inline-block!important;
+}
+.navbar-create-btn, .tk-blue-btn, .tk-cancel-btn, .tk-deativate-btn, .tk-green-btn, .top-nav .md-button.navbar-create-btn, div[class*=fancy-] .action-btn.flat .btn.cancel-btn, div[class*=fancy-] .action-btn.flat .btn.create-btn {
+    background-color: #1394ff;
+    border: 2px solid #1394ff;
+    font-family: Montserrat-Light;
+    min-width: 130px;
+    color: #fff;
+    font-size: 14px;
+    height: 36px;
+    line-height: 32px;
+    outline: 0;
+    border-radius: 100px;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+    padding: 0 15px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none!important;
+    display: inline-block;
+}
+.btn, flatdoc .button {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 400;
+    text-align: center;
+    touch-action: manipulation;
+    cursor: pointer;
+    border: 0 solid transparent;
+    white-space: nowrap;
+    padding: 6px 16px;
+    border-radius: 4px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.btn, flatdoc .button, img {
+    vertical-align: middle;
+}
+.btn, .form-control, flatdoc .button {
+    font-size: 14px;
+    line-height: 1.52857143;
+}
+.btn {
+    -ms-touch-action: manipulation;
+}
+.btn, .btn-danger.active, .btn-danger:active, .btn-info.active, .btn-info:active, .btn-primary.active, .btn-primary:active, .btn-success.active, .btn-success:active, .btn-warning.active, .btn-warning:active, .btn.active, .btn:active, .open>.dropdown-toggle.btn-danger, .open>.dropdown-toggle.btn-info, .open>.dropdown-toggle.btn-primary, .open>.dropdown-toggle.btn-success, .open>.dropdown-toggle.btn-warning {
+    background-image: none;
+}
+*, :after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
