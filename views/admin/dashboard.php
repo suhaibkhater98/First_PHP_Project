@@ -55,16 +55,7 @@ if ($zoneIrbid && $zoneAmman && $zoneAqaba && $zoneZarqa && $zoneZarqa)
     <link href="../../resource/css/bootstrap.css" rel="stylesheet">
     <!-- Font Awesome -->
     <link href="../../resource/css/font-awesome.css" rel="stylesheet">
-    <!-- NProgress -->
-    <link href="../../resource/css/nprogress.css" rel="stylesheet">
-    <!-- iCheck -->
-    <link href="../../resource/css/green.css" rel="stylesheet">
-    <!-- bootstrap-progressbar -->
-    <link href="../../resource/css/bootstrap-progressbar-3.3.4.css" rel="stylesheet">
-    <!-- JQVMap -->
-    <link href="../../resource/css/jqvmap.css" rel="stylesheet"/>
-    <!-- bootstrap-daterangepicker -->
-    <link href="../../resource/css/daterangepicker.css" rel="stylesheet">
+
     <!-- Custom Theme Style -->
     <link href="../../resource/css/custom.css" rel="stylesheet">
 </head>
@@ -291,7 +282,7 @@ if ($zoneIrbid && $zoneAmman && $zoneAqaba && $zoneZarqa && $zoneZarqa)
 				<!-- footer content include -->
         <?php include '../partPage/footer.html' ?>
         <!-- /footer content include -->
-            
+
     </div>
 </div>
 

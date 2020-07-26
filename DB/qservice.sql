@@ -42,8 +42,31 @@ CREATE TABLE `admins` (
 --
 
 INSERT INTO `admins` (`id`, `email`, `fname`, `lname`, `phone`, `password`) VALUES
-(1, 'example@gmail.com', 'john', 'dexter', 799904209, '11a747d614dabad28003f2919f253d4c7f9d2bfe'),
+(1, 'example@gmail.com', 'john', 'dexter', 799904209, '11a747d614dabad28003f2919f253d4c7f9d2bfe');
 
+
+--
+-- Table structure for table `contractors`
+--
+
+CREATE TABLE `contractors` (
+  `id` int(11) NOT NULL,
+  `email` varchar(255) NOT NULL,
+  `fname` varchar(255) NOT NULL,
+  `lname` varchar(225) NOT NULL,
+  `phone` int(13) NOT NULL,
+  `type` varchar(25) NOT NULL DEFAULT 'contractor',
+  `speciality` varchar(255) NOT NULL,
+  `location` varchar(255) NOT NULL,
+  `rate` int(64) DEFAULT NULL,
+  `state` varchar(255) NOT NULL DEFAULT 'pending',
+  `time_created` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp(),
+  `password` varchar(255) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data for table `contractors`
+--
 
 -- --------------------------------------------------------
 
@@ -69,28 +92,7 @@ INSERT INTO `availability` (`id`, `contractor_id`, `date`, `available_from`, `av
 
 -- --------------------------------------------------------
 
---
--- Table structure for table `contractors`
---
 
-CREATE TABLE `contractors` (
-  `id` int(11) NOT NULL,
-  `email` varchar(255) NOT NULL,
-  `fname` varchar(255) NOT NULL,
-  `lname` varchar(225) NOT NULL,
-  `phone` int(13) NOT NULL,
-  `type` varchar(25) NOT NULL DEFAULT 'contractor',
-  `speciality` varchar(255) NOT NULL,
-  `location` varchar(255) NOT NULL,
-  `rate` int(64) DEFAULT NULL,
-  `state` varchar(255) NOT NULL DEFAULT 'pending',
-  `time_created` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp(),
-  `password` varchar(255) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
-
---
--- Dumping data for table `contractors`
---
 
 INSERT INTO `contractors` (`id`, `email`, `fname`, `lname`, `phone`, `type`, `speciality`, `location`, `rate`, `state`, `time_created`, `password`) VALUES
 (1, 'contractorTemp1@gmail.com', 'Ahmad', 'Ali', 787878542, 'contractor', 'ELECTRICITY', 'irbid', NULL, 'verified', '2020-06-02 17:15:27', '4a488deb5fb91fb3afcf14bab1adf65881ecc4a2'),

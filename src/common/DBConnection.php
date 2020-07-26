@@ -13,8 +13,8 @@ class DBConnection
     function __construct($params=array()) {
         $this->conn = false;
         $this->host = 'localhost';
-        $this->user = 'root';
-        $this->password = '';
+        $this->user = 'admin';
+        $this->password = 'admin1234';
         $this->dbName = 'qservice';
         $this->port = '3306';
         $this->connect();
